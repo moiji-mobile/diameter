@@ -1,0 +1,1 @@
+Obviously the BNF doesn't describe the format used in the file. This is a subclass fixing some of this.

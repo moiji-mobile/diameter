@@ -1,0 +1,14 @@
+{
+	"category" : "Diameter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestDiameter",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
