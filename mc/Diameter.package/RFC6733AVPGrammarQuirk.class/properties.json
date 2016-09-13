@@ -1,0 +1,14 @@
+{
+	"category" : "Diameter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RFC6733AVPGrammarQuirk",
+	"pools" : [
+		 ],
+	"super" : "RFC6733AVPGrammar",
+	"type" : "normal" }

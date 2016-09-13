@@ -1,0 +1,19 @@
+{
+	"category" : "Diameter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grouped_avp_def",
+		"name",
+		"name_fmt",
+		"avp",
+		"avpcode",
+		"vendor" ],
+	"name" : "RFC6733AVPGrammar",
+	"pools" : [
+		 ],
+	"super" : "RFC6733MessageGrammar",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I represent the RFC6733 grammar for messages with some minor tweaks.  My children can either further specialize or parse real world messages
