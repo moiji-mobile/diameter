@@ -1,0 +1,36 @@
+{
+	"category" : "Diameter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "HolgerHansPeterFreyther 9/14/2016 13:28",
+	"instvars" : [
+		"ALPHA",
+		"DIGIT",
+		"section",
+		"comment",
+		"id",
+		"base_10_id",
+		"base_16_id",
+		"sectName",
+		"prefix",
+		"vendor",
+		"blank",
+		"avp_types",
+		"avp_type",
+		"diameter_name",
+		"avp_basic_type",
+		"avp_info",
+		"messages",
+		"message",
+		"enum",
+		"enum_field",
+		"enum_field_name",
+		"grouped",
+		"group" ],
+	"name" : "OTPDiaGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
