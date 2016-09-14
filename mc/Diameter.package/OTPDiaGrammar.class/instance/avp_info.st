@@ -1,3 +1,4 @@
 avp_types
 avp_info
-	^$M asParser / $- asParser
+	"AVP Flags and ignoring P"
+	^($M asParser / $- asParser / $V asParser) plus
