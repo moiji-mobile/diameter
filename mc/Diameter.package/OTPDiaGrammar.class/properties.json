@@ -28,7 +28,8 @@
 		"enum_field",
 		"enum_field_name",
 		"grouped",
-		"group" ],
+		"group",
+		"inherits" ],
 	"name" : "OTPDiaGrammar",
 	"pools" : [
 		 ],
