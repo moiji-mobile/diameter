@@ -1,0 +1,1 @@
+I represent BNF rules that are in both the messages and avp-group definition

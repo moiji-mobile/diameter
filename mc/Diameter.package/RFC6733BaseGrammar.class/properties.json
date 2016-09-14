@@ -1,0 +1,24 @@
+{
+	"category" : "Diameter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "HolgerHansPeterFreyther 9/14/2016 11:49",
+	"instvars" : [
+		"ALPHA",
+		"DIGIT",
+		"digits",
+		"min",
+		"max",
+		"qual",
+		"diameter_name",
+		"avp_spec",
+		"fixed",
+		"required",
+		"optional" ],
+	"name" : "RFC6733BaseGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
