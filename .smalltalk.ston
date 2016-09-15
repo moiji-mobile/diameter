@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+      SCIMetacelloLoadSpec {
+          #baseline : 'Diameter',
+          #directory : 'mc',
+          #platforms : [ #pharo ]
+      }
+  ]
+}
+
