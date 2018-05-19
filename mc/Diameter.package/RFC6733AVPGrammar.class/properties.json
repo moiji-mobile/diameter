@@ -1,10 +1,10 @@
 {
-	"category" : "Diameter",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "RFC6733BaseGrammar",
+	"category" : "Diameter-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"grouped_avp_def",
 		"name",
@@ -12,9 +12,8 @@
 		"header",
 		"avp",
 		"avpcode",
-		"vendor" ],
+		"vendor"
+	],
 	"name" : "RFC6733AVPGrammar",
-	"pools" : [
-		 ],
-	"super" : "RFC6733BaseGrammar",
-	"type" : "normal" }
+	"type" : "normal"
+}

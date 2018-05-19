@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "RFC6733MessageGrammarTest",
+	"super" : "TestCase",
 	"category" : "Diameter-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RFC6733MessageGrammarQuirkTest",
+	"name" : "AVPHeaderTest",
 	"type" : "normal"
 }

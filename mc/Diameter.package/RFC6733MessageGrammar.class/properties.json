@@ -1,10 +1,10 @@
 {
-	"category" : "Diameter",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "HolgerHansPeterFreyther 9/14/2016 00:37",
+	"super" : "RFC6733BaseGrammar",
+	"category" : "Diameter-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"command_def",
 		"r_bit",
@@ -14,9 +14,8 @@
 		"command_id",
 		"command_name",
 		"diameter_message",
-		"header" ],
+		"header"
+	],
 	"name" : "RFC6733MessageGrammar",
-	"pools" : [
-		 ],
-	"super" : "RFC6733BaseGrammar",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "Diameter-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "RFC6733AVPGrammarQuirkTest",
-	"pools" : [
-		 ],
 	"super" : "RFC6733AVPGrammarTest",
-	"type" : "normal" }
+	"category" : "Diameter-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RFC6733AVPGrammarQuirkTest",
+	"type" : "normal"
+}

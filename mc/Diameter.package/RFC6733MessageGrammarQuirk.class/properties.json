@@ -1,14 +1,13 @@
 {
-	"category" : "Diameter",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "HolgerHansPeterFreyther 9/13/2016 18:09",
-	"instvars" : [
-		"answer_quirk" ],
-	"name" : "RFC6733MessageGrammarQuirk",
-	"pools" : [
-		 ],
 	"super" : "RFC6733MessageGrammar",
-	"type" : "normal" }
+	"category" : "Diameter-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"answer_quirk"
+	],
+	"name" : "RFC6733MessageGrammarQuirk",
+	"type" : "normal"
+}

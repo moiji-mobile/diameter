@@ -1,10 +1,10 @@
 {
-	"category" : "Diameter",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "HolgerHansPeterFreyther 9/14/2016 11:49",
+	"super" : "PPCompositeParser",
+	"category" : "Diameter-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"ALPHA",
 		"DIGIT",
@@ -16,9 +16,8 @@
 		"avp_spec",
 		"fixed",
 		"required",
-		"optional" ],
+		"optional"
+	],
 	"name" : "RFC6733BaseGrammar",
-	"pools" : [
-		 ],
-	"super" : "PPCompositeParser",
-	"type" : "normal" }
+	"type" : "normal"
+}
