@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"diameterCode",
+		"request",
+		"proxy",
+		"errorBit",
+		"applicationId"
+	],
+	"name" : "OTPDiaHeaderToken",
+	"type" : "normal"
+}

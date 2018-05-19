@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"avpCode",
+		"fixedAVPs",
+		"requiredAVPS",
+		"optionalAVPs"
+	],
+	"name" : "OTPDiaAVPToken",
+	"type" : "normal"
+}

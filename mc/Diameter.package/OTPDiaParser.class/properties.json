@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OTPDiaGrammar",
+	"category" : "Diameter-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OTPDiaParser",
+	"type" : "normal"
+}

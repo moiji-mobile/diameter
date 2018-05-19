@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"diameterHeader",
+		"fixedAVPs",
+		"requiredAVPs",
+		"optionalAVPs",
+		"messageName"
+	],
+	"name" : "OTPDiaDiameterMessageToken",
+	"type" : "normal"
+}

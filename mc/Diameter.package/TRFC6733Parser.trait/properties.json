@@ -1,0 +1,7 @@
+{
+	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"category" : "Diameter-Parser",
+	"instvars" : [ ],
+	"name" : "TRFC6733Parser"
+}

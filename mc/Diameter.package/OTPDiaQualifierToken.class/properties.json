@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"min",
+		"max",
+		"many"
+	],
+	"name" : "OTPDiaQualifierToken",
+	"type" : "normal"
+}

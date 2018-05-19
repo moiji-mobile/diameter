@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"typeIsDefine",
+		"avpTypeName",
+		"enumValues"
+	],
+	"name" : "OTPDiaEnumToken",
+	"type" : "normal"
+}

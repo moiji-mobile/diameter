@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TRFC6733Parser classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RFC6733MessageParserQuirk",
+	"commentStamp" : "",
+	"super" : "RFC6733MessageGrammarQuirk",
+	"traitcomposition" : "TRFC6733Parser",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Diameter-Parser"
+}
