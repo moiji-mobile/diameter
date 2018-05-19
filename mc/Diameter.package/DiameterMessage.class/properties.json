@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-AVP-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"flagRequest",
+		"flagProxyable",
+		"flagError",
+		"flagRetransmit",
+		"commandCode",
+		"applicationId",
+		"hopByHopId",
+		"endToEndId",
+		"avps"
+	],
+	"name" : "DiameterMessage",
+	"type" : "normal"
+}
