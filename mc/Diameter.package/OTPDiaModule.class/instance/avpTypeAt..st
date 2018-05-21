@@ -1,12 +1,3 @@
 as yet unclassified
-avpTypeAt: aString 
-	avpTypes do: [:each |
-		each avpName = aString ifTrue: [^each]].
-
-	aString = 'AVP' ifTrue: [
-		^AVPType new
-			avpBaseType: 'OctetString';
-			avpName: 'AVP';
-			yourself].
-
-	^NotFoundError signal: 'AVP Type not found'
+avpTypeAt: aString
+	^self avpTypeAt: aString ifAbsent: [NotFoundError signal: 'AVP Type not found'].

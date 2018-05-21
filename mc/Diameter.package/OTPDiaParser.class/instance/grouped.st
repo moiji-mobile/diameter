@@ -1,3 +1,3 @@
 grammar
 grouped
-	^super grouped ==> [:p | p second ]
+	^super grouped ==> [:p | p second reject: #isNil ]

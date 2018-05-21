@@ -11,7 +11,8 @@
 		"vendorId",
 		"vendorName",
 		"avpTypes",
-		"messages"
+		"messages",
+		"dependencies"
 	],
 	"name" : "OTPDiaModule",
 	"type" : "normal"

@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "OTPDiaGrammar",
-	"category" : "Diameter-Parser",
+	"super" : "Object",
+	"category" : "Diameter-Parser-Token",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"moduleSet"
+		"parsed",
+		"moduleName"
 	],
-	"name" : "OTPDiaParser",
+	"name" : "OTPDiaInheritToken",
 	"type" : "normal"
 }
