@@ -1,3 +1,3 @@
 enum
 enum_field_name
-	^(ALPHA, (ALPHA / DIGIT / $- asParser / $_ asParser) star) flatten
+	^((ALPHA / $' asParser), (ALPHA / DIGIT / $- asParser / $_ asParser / $. asParser) star, $' asParser optional) flatten
