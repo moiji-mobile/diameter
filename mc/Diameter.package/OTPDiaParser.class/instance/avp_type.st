@@ -1,6 +1,7 @@
 as yet unclassified
 avp_type
-	^super avp_type ==> [:p | AVPType new
+	^super avp_type ==> [:p |
+		(self avpTypeFor: p third) new
 										avpName: p first;
 										avpCode: p second asInteger;
 										avpBaseType: p third;

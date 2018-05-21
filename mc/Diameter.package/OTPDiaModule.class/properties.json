@@ -6,13 +6,13 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"avpName",
-		"avpCode",
-		"avpBaseType",
-		"flagMandatory",
-		"flagVendor",
-		"typeDefines"
+		"moduleId",
+		"moduleName",
+		"vendorId",
+		"vendorName",
+		"avpTypes",
+		"messages"
 	],
-	"name" : "AVPType",
+	"name" : "OTPDiaModule",
 	"type" : "normal"
 }

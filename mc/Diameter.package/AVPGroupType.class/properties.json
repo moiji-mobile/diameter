@@ -1,18 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "AVPType",
 	"category" : "Diameter-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"avpName",
-		"avpCode",
-		"avpBaseType",
-		"flagMandatory",
-		"flagVendor",
-		"typeDefines"
+		"fixedAVPs",
+		"requiredAVPs",
+		"optionalAVPs"
 	],
-	"name" : "AVPType",
+	"name" : "AVPGroupType",
 	"type" : "normal"
 }

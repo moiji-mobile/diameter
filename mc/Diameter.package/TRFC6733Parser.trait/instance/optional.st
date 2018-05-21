@@ -1,3 +1,6 @@
 operators
 optional
-	^super optional ==> [:p | {p first. p third} ]
+	^super optional ==> [:p |
+		| qual |
+		qual := self buildOptionalQualifier: p first.
+		{qual. p third} ]

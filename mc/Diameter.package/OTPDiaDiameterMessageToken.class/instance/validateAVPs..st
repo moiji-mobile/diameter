@@ -1,3 +1,3 @@
 as yet unclassified
-avpFlag: aCollection 
+validateAVPs: aCollection 
 	self shouldBeImplemented.

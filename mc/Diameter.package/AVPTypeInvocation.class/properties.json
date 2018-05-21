@@ -6,13 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"avpName",
-		"avpCode",
-		"avpBaseType",
-		"flagMandatory",
-		"flagVendor",
-		"typeDefines"
+		"avpType",
+		"min",
+		"max",
+		"many"
 	],
-	"name" : "AVPType",
+	"name" : "AVPTypeInvocation",
 	"type" : "normal"
 }

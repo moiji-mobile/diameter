@@ -8,8 +8,8 @@
 	"instvars" : [
 		"avpCode",
 		"fixedAVPs",
-		"requiredAVPS",
-		"optionalAVPs"
+		"optionalAVPs",
+		"requiredAVPs"
 	],
 	"name" : "OTPDiaAVPToken",
 	"type" : "normal"

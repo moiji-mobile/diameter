@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"messageName",
+		"diameterCode",
+		"requestBit",
+		"proxyBit",
+		"errorBit",
+		"applicationId",
+		"fixedAVPS",
+		"requiredAVPs",
+		"optionalAVPs"
+	],
+	"name" : "DiameterMessageType",
+	"type" : "normal"
+}
