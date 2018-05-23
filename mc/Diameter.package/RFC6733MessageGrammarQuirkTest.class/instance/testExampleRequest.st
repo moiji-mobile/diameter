@@ -5,7 +5,7 @@ testExampleRequest
 	self assert: res equals: #(
 		nil 'Example-Request' nil '::='
 		#(
-			#( #($< 'Diameter' 'Header' $:) '9999999' ', REQ' ', PXY' nil '' $>)
+			#( #($< 'Diameter' 'Header' $:) '9999999' ', REQ' ', PXY' nil nil $>)
 			#()
 			#( #(nil ${ 'User-Name' $} ) #( #('1' $* nil) ${ 'Origin-Host' $} )
 			   #( #( nil $* nil) $[ 'AVP' $]) )

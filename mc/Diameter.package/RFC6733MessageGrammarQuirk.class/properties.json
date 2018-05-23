@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"answer_quirk"
+		"answer_quirk",
+		"optional_application_id"
 	],
 	"name" : "RFC6733MessageGrammarQuirk",
 	"type" : "normal"
