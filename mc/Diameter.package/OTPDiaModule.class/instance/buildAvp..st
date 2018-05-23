@@ -7,4 +7,5 @@ buildAvp: aCollection
 		min: aCollection first min;
 		max: aCollection first max;
 		many: aCollection first many;
+		fixedRequiredOptional: aCollection third;
 		yourself

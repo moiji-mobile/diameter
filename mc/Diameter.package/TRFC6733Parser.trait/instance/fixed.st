@@ -4,4 +4,4 @@ fixed
 	^super fixed ==> [:p |
 		| qual |
 		qual := self buildFixedQualifier: p first.
-		{qual. p third} ]
+		{qual. p third. #fixed} ]

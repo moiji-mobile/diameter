@@ -1,17 +1,14 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Diameter-Parser",
+	"category" : "Diameter-Parser-Token",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"avpType",
-		"min",
-		"max",
-		"many",
-		"fixedRequiredOptional"
+		"avpVendorId",
+		"avpNames"
 	],
-	"name" : "AVPTypeInvocation",
+	"name" : "OTPDiaAVPVendorToken",
 	"type" : "normal"
 }

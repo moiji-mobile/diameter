@@ -3,4 +3,4 @@ optional
 	^super optional ==> [:p |
 		| qual |
 		qual := self buildOptionalQualifier: p first.
-		{qual. p third} ]
+		{qual. p third. #optional} ]

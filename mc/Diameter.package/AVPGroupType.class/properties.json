@@ -6,9 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"fixedAVPs",
-		"requiredAVPs",
-		"optionalAVPs"
+		"avps"
 	],
 	"name" : "AVPGroupType",
 	"type" : "normal"

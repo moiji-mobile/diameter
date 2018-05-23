@@ -15,5 +15,5 @@ header
 				$: asParser)) trimSpaces,
 		(command_id / 'code' asParser) trimSpaces,
 		r_bit optional trimSpaces, p_bit optional trimSpaces, (e_bit optional trimSpaces), 
-		application_id optional trimSpaces,
+		($, asParser optional trimSpaces, application_id optional trimSpaces) flatten,
 		$> asParser trimBlanks

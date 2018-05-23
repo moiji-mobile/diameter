@@ -7,9 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"avpCode",
-		"fixedAVPs",
-		"optionalAVPs",
-		"requiredAVPs"
+		"avps"
 	],
 	"name" : "OTPDiaAVPToken",
 	"type" : "normal"

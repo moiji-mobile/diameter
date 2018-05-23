@@ -6,3 +6,6 @@ printOn: aStream
 	max ifNotNil: [ aStream nextPutAll: max displayString ].
 	aStream nextPutAll: ' '.
 	avpType printOn: aStream.
+	aStream
+		nextPutAll: ' ';
+		nextPutAll: fixedRequiredOptional

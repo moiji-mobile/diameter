@@ -29,7 +29,8 @@
 		"enum_field_name",
 		"grouped",
 		"group",
-		"inherits"
+		"inherits",
+		"avp_vendor_id"
 	],
 	"name" : "OTPDiaGrammar",
 	"type" : "normal"
