@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "AVPTypeInvocation",
 	"category" : "Diameter-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"avpType",
-		"min",
-		"max",
-		"many"
-	],
-	"name" : "AVPTypeInvocation",
+	"instvars" : [ ],
+	"name" : "AVPRequiredTypeInvocation",
 	"type" : "normal"
 }

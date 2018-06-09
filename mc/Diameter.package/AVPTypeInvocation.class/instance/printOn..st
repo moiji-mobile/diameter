@@ -8,4 +8,4 @@ printOn: aStream
 	avpType printOn: aStream.
 	aStream
 		nextPutAll: ' ';
-		nextPutAll: fixedRequiredOptional
+		nextPutAll: self fixedRequiredOptional
