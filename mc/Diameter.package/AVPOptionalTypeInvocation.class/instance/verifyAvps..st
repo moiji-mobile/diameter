@@ -8,7 +8,6 @@ verifyAvps: avps
 		| avp |
 		avp := self findAvpIn: avps.
 		avp ifNil: [ ^self ].
-
 		avps remove: avp.
 		items := items - 1.
 	].
