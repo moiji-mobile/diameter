@@ -1,0 +1,5 @@
+Simple SCTP to many TCP connections proxy...
+
+
+Long term goal.. add SCTP code into Envoy... and benefit from
+service discovery and health checks..
