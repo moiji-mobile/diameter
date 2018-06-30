@@ -2,11 +2,11 @@ parsing
 parseData: aReadStream
 	| len fixedLength rest |
 	fixedLength := 8.
-	len := (aReadStream next: 3) asInteger.
+	len := aReadStream uint24.
 
 	avpFlagVendor ifTrue: [
 		fixedLength := fixedLength + 4.
-		avpVendorId := (aReadStream next: 4) asInteger].
+		avpVendorId := aReadStream uint32].
 
 	avpData := aReadStream next: len - fixedLength.
 

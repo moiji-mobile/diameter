@@ -1,6 +1,6 @@
 parsing
 parseFrom: aStream
 	^self basicNew
-		avpCode: (aStream next: 4) asInteger;
-		avpFlags: (aStream next: 1) asInteger;
+		avpCode: aStream uint32;
+		avpFlags: aStream next;
 		parseData: aStream.
