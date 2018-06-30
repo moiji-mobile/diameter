@@ -14,7 +14,8 @@
 		"applicationId",
 		"hopByHopId",
 		"endToEndId",
-		"avps"
+		"avps",
+		"messageType"
 	],
 	"name" : "DiameterMessage",
 	"type" : "normal"
