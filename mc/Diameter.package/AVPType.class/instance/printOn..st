@@ -6,7 +6,7 @@ printOn: aStream
 		nextPutAll: ' ';
 		nextPutAll: avpCode displayString;
 		nextPutAll: ' ';
-		nextPutAll: avpBaseType;
+		nextPutAll: avpBaseType displayString;
 		nextPutAll: ' ';
 		nextPutAll: self avpFlagString;
 		nextPutAll: '>'

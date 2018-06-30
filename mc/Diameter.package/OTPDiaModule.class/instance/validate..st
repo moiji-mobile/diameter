@@ -1,6 +1,7 @@
 validation
 validate: aDiameterMessage
 	| descriptor avps |
+	"TODO(zecke): this doesn't check grouped types"
 	descriptor := self findDescriptor: aDiameterMessage commandCode request: aDiameterMessage isRequest.
 	avps := aDiameterMessage avps copy.
 	descriptor avps do: [:type |

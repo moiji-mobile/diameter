@@ -1,0 +1,3 @@
+*Diameter
+encodedData
+	^self

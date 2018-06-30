@@ -2,7 +2,7 @@ as yet unclassified
 optApplyOn: aModule
 	| avpType |
 	avpType := aModule avpTypeAt: avpName.
-	avpType avpBaseType = 'Grouped' ifFalse: [
+	avpType avpBaseType = AVPGrouped ifFalse: [
 		^self error: 'Base type should be grouped. Inconsistent'].
 	avpType avpCode = avps avpCode ifFalse: [
 		^self error: 'AVP code not consistent'].

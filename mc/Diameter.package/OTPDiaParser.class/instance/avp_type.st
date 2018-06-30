@@ -4,5 +4,5 @@ avp_type
 		(self avpTypeFor: p third) new
 										avpName: p first;
 										avpCode: p second asInteger;
-										avpBaseType: p third;
+										avpBaseType: (self avpBaseTypeFor: p third);
 										avpFlagFromCharacter: p fourth first ]

@@ -1,6 +1,7 @@
 as yet unclassified
 encodeOn: aWriteStream
-	| len rest |
+	| len rest encoded |
+	encoded := avpData encodedData.
 	aWriteStream
 		nextPutInteger32: avpCode;
 		nextPut: (self buildAvpFlag).
@@ -8,16 +9,16 @@ encodeOn: aWriteStream
 	"Length is different and better have only one comparison"
 	avpFlagVendor
 		ifTrue: [
-			len := 8 + 4 + avpData size.
+			len := 8 + 4 + encoded size.
 			aWriteStream
 				nextPutInteger24: len;
 				nextPutInteger32: avpVendorId]
 		ifFalse: [
-			len := 8 + avpData size.
+			len := 8 + encoded size.
 			aWriteStream
 				nextPutInteger24: len].
 
-	aWriteStream nextPutAll: avpData.	
+	aWriteStream nextPutAll: encoded.
 
 	"Write padding"
 	rest := len \\ 4.
