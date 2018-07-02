@@ -7,7 +7,7 @@ decodeData: aByteArray type: aType
 		parsedAvps add: (AVPHeader parseFrom: stream)].
 	aType avps do: [:type |
 		type parse: parsedAvps].
-	^AVPGrouped new
+	^self new
 		avpType: aType;
 		contents: parsedAvps;
 		yourself.

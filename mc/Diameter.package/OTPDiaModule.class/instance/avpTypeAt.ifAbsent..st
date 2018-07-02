@@ -1,7 +1,6 @@
 as yet unclassified
-avpTypeAt: aString ifAbsent: aBlockClosure 
-	avpTypes do: [:each |
-		each avpName = aString ifTrue: [^each]].
+avpTypeAt: aString ifAbsent: aBlockClosure
+	avpTypes detect: [:each | each avpName = aString ] ifFound: [:each | ^each ].
 
 	aString = 'AVP' ifTrue: [
 		^AVPType new

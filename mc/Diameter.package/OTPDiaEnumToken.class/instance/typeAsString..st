@@ -1,3 +1,3 @@
-as yet unclassified
-typeAsString: aString 
-	typeIsDefine := (aString = '@enum') not.
+accessing
+typeAsString: aString
+	typeIsDefine := aString ~= '@enum'
