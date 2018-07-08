@@ -1,3 +1,3 @@
 as yet unclassified
-typeAvps
+avpTypeAvps
 	^messageType avps
