@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
-	"super" : "AVPBaseType",
-	"category" : "Diameter-Types",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "AVPBuilderTrait classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "AVPGrouped",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "AVPBaseType",
+	"traitcomposition" : "AVPBuilderTrait",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Diameter-Types"
 }

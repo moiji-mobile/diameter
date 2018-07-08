@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 validate
 	| copiedAvps |
 	"TODO(zecke): Check commandCode/applicationId/bits.."

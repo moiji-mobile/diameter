@@ -6,6 +6,6 @@ verifyAvps: avps
 		| avp |
 		avp := self findAvpIn: avps.
 		avp ifNil: [
-			^self error: 'Required AVP not present'].
+			^self error: 'Required AVP not present: ', self avpType avpName].
 		avps remove: avp.
 	].

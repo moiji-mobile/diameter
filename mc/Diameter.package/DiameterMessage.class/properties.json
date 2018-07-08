@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Diameter-AVP-Base",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "AVPBuilderTrait classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"flagRequest",
@@ -18,5 +14,11 @@
 		"messageType"
 	],
 	"name" : "DiameterMessage",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "AVPBuilderTrait",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Diameter-AVP-Base"
 }
