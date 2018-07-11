@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AVPEncoderTestBase",
+	"category" : "Diameter-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AVPInteger64Test",
+	"type" : "normal"
+}

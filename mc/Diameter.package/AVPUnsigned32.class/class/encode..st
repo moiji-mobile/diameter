@@ -1,5 +1,5 @@
 as yet unclassified
 encode: anInteger 
 	^(ByteArray new: 4)
-		nbUInt32AtOffset: 0 put: anInteger;
+		unsignedLongAt: 1 put: anInteger bigEndian: true;
 		yourself
