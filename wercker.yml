@@ -1,0 +1,10 @@
+build:
+  box:
+    id: moijidev/debianbase
+    username: $USERNAME
+    password: $PASSWORD
+  steps:
+    - script:
+        name: Build image
+        code: |
+          ./ci_wercker.sh $PWD
