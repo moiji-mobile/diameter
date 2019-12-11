@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "sebastiansastre 12/11/2019 10:16",
+	"super" : "TestCase",
+	"category" : "Diameter-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AVPPathTest",
+	"type" : "normal"
+}
