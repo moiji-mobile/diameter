@@ -5,14 +5,13 @@ testULRNestedDecode
 		decode: self class updateLocationRequestSample.
 	self class s6aParser decode: message.
 	message decodeAll.
-	self assert: (message avpsPath / 'Route-Record') size = 4.
+	self assert: (message avpsPath / 'Route-Record') size equals: 4.
 	self
-		assert:
-			(message avpsPath / 'Route-Record') value first value
-				= 'katdsr.epc.mnc006.mcc260.3gppnetwork.org'.
+		assert: (message avpsPath / 'Route-Record') value first value
+		equals: 'katdsr.epc.mnc006.mcc260.3gppnetwork.org'.
 	self
-		assert: (message avpsPath / 'User-Name') value first value = '310840800002042'.
+		assert: (message avpsPath / 'User-Name') value first value
+		equals: '310840800002042'.
 	self
-		assert:
-			(message avpsPath / 'Visited-PLMN-Id') value first value
-				= #[98 240 96]
+		assert: (message avpsPath / 'Visited-PLMN-Id') value first value
+		equals: #[98 240 96]

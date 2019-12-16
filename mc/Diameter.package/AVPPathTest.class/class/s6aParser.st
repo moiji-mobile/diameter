@@ -3,9 +3,9 @@ s6aParser
 	^ OTPDiaParser new
 		moduleSet:
 			(Dictionary new
-				at: 'ietf-avps' put: 'contrib/specs/ietf-avps.dia';
-				at: '3gpp-avps' put: 'contrib/specs/3gpp-avps.dia';
-				at: '3gpp2-avps' put: 'contrib/specs/3gpp2-avps.dia';
-				at: 'etsi-avps' put: 'contrib/specs/etsi-avps.dia';
+				at: 'ietf-avps' put: S6aLibrary specIetfAvps;
+				at: '3gpp-avps' put: S6aLibrary spec3gppAvps;
+				at: '3gpp2-avps' put: S6aLibrary spec3gpp2Avps;
+				at: 'etsi-avps' put: S6aLibrary specEtsiAvps;
 				yourself);
-		parseModule: 'contrib/specs/S6a.dia' asFileReference contents
+		parseModule: S6aLibrary specS6a 

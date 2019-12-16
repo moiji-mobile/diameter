@@ -11,10 +11,13 @@ testULRequestQuerying
 			(message avpsPath / 'Route-Record') value first value
 				= 'katdsr.epc.mnc006.mcc260.3gppnetwork.org'.
 	self
-		assert: (message avpsPath / 'User-Name') value first value = '310840800002042'.
+		assert: (message avpsPath / 'User-Name') value first value
+		equals: '310840800002042'.
+	self
+		assert: (message avpsPath / 'Visited-PLMN-Id') value first value
+		equals: #[98 240 96].
 	self
 		assert:
-			(message avpsPath / 'Visited-PLMN-Id') value first value
-				= #[98 240 96].
-				
-	self assert: (message avpsPath / 'Requested-EUTRAN-Authentication-Info' / 'Number-Of-Requested-Vectors') value first value = 1
+			(message avpsPath / 'Requested-EUTRAN-Authentication-Info'
+				/ 'Number-Of-Requested-Vectors') value first value
+		equals: 1
