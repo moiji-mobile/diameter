@@ -2,11 +2,9 @@ as yet unclassified
 baseline: spec
 	<baseline>
 
-	spec project: 'PetitParser' with: [
+	spec baseline: 'PetitParser' with: [
 		spec
-			className: #ConfigurationOfPetitParser;
-			versionString: #stable;
-			repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main';
+			repository: 'github://moosetechnology/PetitParser:v2.2.0/src';
 			loads: #( 'Core' 'Tests' ) ].
 
 	spec package: #Diameter with: [
