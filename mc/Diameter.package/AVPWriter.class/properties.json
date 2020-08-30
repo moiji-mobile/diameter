@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"avpHeader",
+		"avpType"
+	],
+	"name" : "AVPWriter",
+	"type" : "normal"
+}
