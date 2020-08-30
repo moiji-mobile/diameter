@@ -4,5 +4,5 @@ addAvpNamed: aString with: aBlock
 	"Append a new AVP to the end"
 	type := self avpTypeAvps findAvpInstanceByName: aString.
 	avp := type newHeader.
-	aBlock cull: avp cull: type.
-	self addAvp: avp.
+	aBlock value: (AVPWriter on: avp type: type).
+	self addAvp: avp
