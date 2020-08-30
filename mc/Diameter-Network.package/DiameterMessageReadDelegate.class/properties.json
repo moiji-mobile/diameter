@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OsmoMessageReadDelegate",
+	"category" : "Diameter-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DiameterMessageReadDelegate",
+	"type" : "normal"
+}
