@@ -7,7 +7,7 @@ testULAnswerQuerying
 	message decodeAll.
 	self
 		assert: (message avpsPath / 'Auth-Session-State') value first value
-		equals: 1.
+		equals: 'NO_STATE_MAINTAINED'.
 	self
 		assert:
 			(message avpsPath / 'Authentication-Info' / 'E-UTRAN-Vector' / 'AUTN')
