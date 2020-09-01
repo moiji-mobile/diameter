@@ -1,6 +1,8 @@
 accessing
 s6aParser
-	^ OTPDiaParser new
+	| module |
+	module := OTPDiaModule new.
+	OTPDiaParser new
 		moduleSet:
 			(Dictionary new
 				at: 'ietf-avps' put: S6aLibrary specIetfAvps;
@@ -8,4 +10,6 @@ s6aParser
 				at: '3gpp2-avps' put: S6aLibrary spec3gpp2Avps;
 				at: 'etsi-avps' put: S6aLibrary specEtsiAvps;
 				yourself);
-		parseModule: S6aLibrary specS6a 
+		parseModule: S6aLibrary specBaseRFC6733 on: module;
+		parseModule: S6aLibrary specS6a on: module.
+	^ module
