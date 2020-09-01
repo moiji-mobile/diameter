@@ -8,7 +8,7 @@ baseline: spec
 				loads: #('Core' 'Tests') ].
 	spec
 		baseline: 'OsmoNetwork'
-		with: [ spec repository: 'github://moiji-mobile/osmocom-network:v8/source' ].
+		with: [ spec repository: 'github://moiji-mobile/osmocom-network:v9/source' ].
 	spec package: #Diameter with: [ spec requires: #('PetitParser') ].
 	spec
 		package: #'Diameter-Network'
