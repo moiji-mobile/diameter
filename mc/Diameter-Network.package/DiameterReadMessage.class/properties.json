@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "OsmoMessageReadDelegate",
+	"super" : "Announcement",
 	"category" : "Diameter-Network",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"announcer"
+		"diameterMessage"
 	],
-	"name" : "DiameterMessageReadDelegate",
+	"name" : "DiameterReadMessage",
 	"type" : "normal"
 }
