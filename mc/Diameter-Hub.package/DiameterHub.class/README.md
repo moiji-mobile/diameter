@@ -1,0 +1,1 @@
+A modifying proxy ("hub") inspired by ServeMux, kamailio and netfilter. It's possible to register one or more network services and then handle messages.

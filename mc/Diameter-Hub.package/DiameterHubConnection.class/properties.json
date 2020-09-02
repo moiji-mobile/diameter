@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Hub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"connectionName",
+		"networkConnection"
+	],
+	"name" : "DiameterHubConnection",
+	"type" : "normal"
+}

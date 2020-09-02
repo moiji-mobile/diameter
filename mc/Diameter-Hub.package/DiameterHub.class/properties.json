@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "HolgerHansPeterFreyther 9/2/2020 21:46",
+	"super" : "Object",
+	"category" : "Diameter-Hub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"diameterModule",
+		"connections",
+		"onPreRouting",
+		"onHandle",
+		"defaultHandler"
+	],
+	"name" : "DiameterHub",
+	"type" : "normal"
+}
