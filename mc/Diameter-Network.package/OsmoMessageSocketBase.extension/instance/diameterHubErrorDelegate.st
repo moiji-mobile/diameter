@@ -1,0 +1,3 @@
+*Diameter-Network
+diameterHubErrorDelegate
+	^errorDelegate

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HolgerHansPeterFreyther 10/24/2020 21:05",
+	"super" : "Object",
+	"category" : "Diameter-Network-Watchdog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"watchDogTimer",
+		"watchDogTimeout",
+		"stateMachine",
+		"diameterConnection"
+	],
+	"name" : "DiameterWatchdog",
+	"type" : "normal"
+}

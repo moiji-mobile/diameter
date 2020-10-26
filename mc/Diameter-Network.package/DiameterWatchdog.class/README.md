@@ -1,0 +1,1 @@
+Drive the watchdog on a connection according to the RFC.

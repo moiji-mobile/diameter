@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DiameterState",
+	"category" : "Diameter-Network-Watchdog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DiameterWatchdogStateSend",
+	"type" : "normal"
+}

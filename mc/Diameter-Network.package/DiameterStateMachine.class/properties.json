@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Diameter-Network-Watchdog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentState",
+		"actions",
+		"options"
+	],
+	"name" : "DiameterStateMachine",
+	"type" : "normal"
+}
