@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStart
 
 	"This is the BNF as specified. Notice the missing spaces"

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAvp_Vendor_id
 
 	self

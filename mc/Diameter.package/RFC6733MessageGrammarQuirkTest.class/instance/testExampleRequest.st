@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testExampleRequest
 	| res |
 	res := self parse: self class exampleRequest.

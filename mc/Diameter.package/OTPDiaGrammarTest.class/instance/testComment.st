@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testComment
 	self
 		parse: ';;123', Character lf asString, 'long long long long long'

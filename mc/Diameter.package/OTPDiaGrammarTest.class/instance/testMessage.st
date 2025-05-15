@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMessage
 	self
 		parse: self class exampleMessage

@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 validate: descriptor avps: avps 
 	descriptor do: [:type |
 		type verifyAvps: avps].

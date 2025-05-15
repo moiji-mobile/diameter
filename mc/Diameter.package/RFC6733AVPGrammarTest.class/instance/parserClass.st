@@ -1,3 +1,3 @@
-as yet unclassified
+hooks
 parserClass
 	^RFC6733AVPGrammar

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEnum_Field
 	self
 		parse: '   MULTI_ROUND_AUTH            1001'

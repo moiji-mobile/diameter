@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testExampleAvp
 	| res |
 	res := self parse: self class exampleAvp.

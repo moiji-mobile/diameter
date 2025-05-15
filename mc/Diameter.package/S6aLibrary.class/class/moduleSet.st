@@ -1,4 +1,4 @@
-as yet unclassified
+specification
 moduleSet
 	| memFs |
 	memFs := FileSystem memory.

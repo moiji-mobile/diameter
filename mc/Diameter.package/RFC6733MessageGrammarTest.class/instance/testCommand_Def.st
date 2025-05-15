@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCommand_Def
 
 	"This is the BNF as specified. Notice the missing spaces"

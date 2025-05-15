@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Diameter-Network'!
+self packageOrganizer ensurePackage: #'Diameter-Network' withTags: #()!

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEncode
 	| data |
 	data := AVPAddress encode: (SocketAddress fromDottedString: '127.0.0.1').

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testInherits
 	self
 		parse: '@inherits abc_def'

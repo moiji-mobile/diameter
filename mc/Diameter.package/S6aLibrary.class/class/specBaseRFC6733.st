@@ -1,4 +1,4 @@
-as yet unclassified
+specification
 specBaseRFC6733
 	^ '@id	0
 @name	base_rfc6733

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testFull
 	| res |
 	res := self parse: self class upToAvpTypes.

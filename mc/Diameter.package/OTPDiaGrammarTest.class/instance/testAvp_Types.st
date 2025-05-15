@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAvp_Types
 	self
 		parse: self class exampleAvpType
