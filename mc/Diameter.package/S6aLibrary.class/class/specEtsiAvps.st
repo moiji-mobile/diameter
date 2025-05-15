@@ -1,4 +1,4 @@
-as yet unclassified
+specification
 specEtsiAvps
 	
 	^ '@name	etsi-avps

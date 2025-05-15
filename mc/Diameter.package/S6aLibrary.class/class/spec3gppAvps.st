@@ -1,4 +1,4 @@
-as yet unclassified
+specification
 spec3gppAvps
 	
 	^ '@name	3gpp-avps

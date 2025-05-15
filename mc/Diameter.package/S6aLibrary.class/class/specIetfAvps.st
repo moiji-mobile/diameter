@@ -1,4 +1,4 @@
-as yet unclassified
+specification
 specIetfAvps
 	
 	^ '@name	ietf-avps

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRequired
 	self parse: '{AVP}' rule: #required to: #(nil ${ 'AVP' $}) end: 5.
 	self parse: '*{AVP}' rule: #required to: #(#(nil $* nil) ${ 'AVP' $}) end: 6.

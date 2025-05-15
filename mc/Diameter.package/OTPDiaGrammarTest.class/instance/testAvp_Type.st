@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAvp_Type
 	self
 		parse: 'Acct-Interim-Interval             85    Unsigned32    M'

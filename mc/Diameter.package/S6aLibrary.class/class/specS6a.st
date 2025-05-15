@@ -1,4 +1,4 @@
-as yet unclassified
+specification
 specS6a
 	
 	^ '@id	16777251

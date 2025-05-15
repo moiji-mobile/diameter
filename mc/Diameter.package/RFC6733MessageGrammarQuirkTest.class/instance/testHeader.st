@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testHeader
 	"Normal mode"
 	self parse: '<Diameter-Header:123, REQ, PXY, ERR123>' rule: #header to: #('<Diameter-Header:' '123' ', REQ' ', PXY' ', ERR' '123' $>) end: 39.

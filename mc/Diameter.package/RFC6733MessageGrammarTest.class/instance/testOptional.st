@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOptional
 	self parse: '[AVP]' rule: #optional to: #(nil $[ 'AVP' $]) end: 5.
 	self parse: '*[AVP]' rule: #optional to: #(#(nil $* nil) $[ 'AVP' $]) end: 6.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMIP6AgentInfo
 	| res |
 	res := self parse: self class mip6AgentInfo.

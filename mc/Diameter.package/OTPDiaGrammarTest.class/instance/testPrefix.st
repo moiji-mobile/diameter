@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPrefix
 	self
 		parse: '@prefix diameter_base'

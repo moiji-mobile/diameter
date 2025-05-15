@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testALPHA
 	self fail: '0D' rule: #ALPHA.
 	self fail: '' rule: #ALPHA.

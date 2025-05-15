@@ -1,3 +1,3 @@
-tests-as yet unclassified
+tests
 testName
 	self parse: 'Abc-Def/' rule: #name to: 'Abc-Def' end: 7. 

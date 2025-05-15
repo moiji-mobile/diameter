@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSectName
 	self
 		parse: '@name   diameter_gen_base_rfc6733'

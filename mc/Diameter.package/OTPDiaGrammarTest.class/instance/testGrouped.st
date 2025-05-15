@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testGrouped
 	self
 		parse: self class exampleGrouped

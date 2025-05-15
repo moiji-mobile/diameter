@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDigit
 	self parse: '0A' rule: #DIGIT to: $0 end: 1.
 	self parse: '1A' rule: #DIGIT to: $1 end: 1.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testFixed
 	self parse: '<AVP>' rule: #fixed to: #(nil $< 'AVP' $>) end: 5.
 	self parse: '*<AVP>' rule: #fixed to: #(#(nil $* nil) $< 'AVP' $>) end: 6.

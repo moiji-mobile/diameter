@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParseProxyInfo
 	| res |
 	res := self parse: self class rfcProxyInfo.

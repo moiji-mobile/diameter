@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEnum
 	self
 		parse: self class exampleEnum

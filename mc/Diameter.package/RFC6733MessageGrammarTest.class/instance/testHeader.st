@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testHeader
 	"This is the BNF as specified. Notice the missing spaces"
 	self parse: '<Diameter-Header:123, REQ, PXY, ERR123>' rule: #header to: #('<Diameter-Header:' '123' ', REQ' ', PXY' ', ERR' '123' $>) end: 39.
