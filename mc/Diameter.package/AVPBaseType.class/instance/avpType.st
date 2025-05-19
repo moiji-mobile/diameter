@@ -1,3 +1,0 @@
-evaluating
-avpType
-	^ avpType

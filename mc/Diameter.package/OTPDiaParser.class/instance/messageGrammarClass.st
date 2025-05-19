@@ -1,3 +1,0 @@
-as yet unclassified
-messageGrammarClass
-	^RFC6733MessageParserQuirk

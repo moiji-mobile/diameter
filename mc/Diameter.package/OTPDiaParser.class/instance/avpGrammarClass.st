@@ -1,3 +1,0 @@
-as yet unclassified
-avpGrammarClass
-	^RFC6733AVPParserQuirk

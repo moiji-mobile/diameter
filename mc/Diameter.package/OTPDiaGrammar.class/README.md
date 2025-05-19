@@ -1,1 +1,0 @@
-I parse the Ericsson Erlang OTP definition of a dia module. I got created by looking the file definition.
