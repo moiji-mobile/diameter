@@ -1,3 +1,0 @@
-initialization
-announcer
-	^announcer
