@@ -1,9 +1,0 @@
-language: smalltalk
-sudo: required
-
-os:
-- linux
-
-smalltalk:
-- Pharo-6.0
-- Pharo-7.0
